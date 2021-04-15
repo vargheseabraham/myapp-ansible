@@ -1,2 +1,2 @@
 [webservers]
-172.31.26.103 ansible_user=managed_host
+172.31.26.103 ansible_user=ec2-user
