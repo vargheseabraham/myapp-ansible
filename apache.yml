@@ -1,6 +1,5 @@
 ---
 - hosts: webservers 
-  become: yes
   tasks:
     - name: Install packages
       yum:
