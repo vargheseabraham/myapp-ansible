@@ -1,5 +1,7 @@
 ---
 - hosts: webservers 
+  become: yes
+  become_user: devopsadmin
   tasks:
     - name: Install packages
       yum:
