@@ -1,7 +1,5 @@
 ---
 - hosts: webservers
-  become: true
-  remote_user: devopsadmin
   tasks:
     - name: Install packages
       yum:
