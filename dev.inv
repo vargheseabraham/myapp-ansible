@@ -1,2 +1,2 @@
 [webservers]
-192.168.32.129 ansible_user=devopsadmin ansible_become=yes
+192.168.32.129 
